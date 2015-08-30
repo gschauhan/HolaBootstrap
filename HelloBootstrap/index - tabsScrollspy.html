@@ -1,0 +1,92 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title></title>
+    <link href="Content/bootstrap.min.css" rel="stylesheet" />
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <h2>Tabs(No scroll allowed)</h2>
+                <ul class="nav nav-tabs" role="tablist">
+                    <li class="active"><a href="#Home" role="tab" data-toggle="tab">Home</a></li>
+                    <li><a href="#Projects" role="tab" data-toggle="tab">Projects</a></li>
+                    <li><a href="#About" role="tab" data-toggle="tab">About</a></li>
+                </ul>
+
+                <div class="tab-content" style="height:150px;overflow-y:scroll;">
+                    <div class="active tab-pane fade in" id="Home">
+                        <h4>The content for home tab</h4>
+                        <div>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean tristique placerat libero in semper. Aliquam erat volutpat. Curabitur finibus nisi nec tincidunt sollicitudin. Nam nulla lacus, venenatis at augue sit amet, placerat placerat risus. Vestibulum ullamcorper diam et pretium sagittis. Suspendisse ac gravida tellus. Phasellus nisi magna, consectetur sed eros et, scelerisque convallis metus. Quisque venenatis, lorem nec vulputate venenatis, arcu mi condimentum erat, pellentesque sodales orci erat nec urna. Integer commodo, metus id tempus mattis, leo nunc commodo nisi, eu auctor nibh eros et tellus. Etiam magna diam, aliquet eget elit at, efficitur facilisis enim. Nullam congue, ipsum id auctor mattis, metus dui accumsan dolor, vitae ullamcorper ante mi in orci. Sed fringilla pharetra turpis.
+
+                            Ut luctus diam sit amet pulvinar efficitur. Donec elementum suscipit rhoncus. Sed accumsan feugiat maximus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus convallis vitae arcu quis eleifend. Curabitur cursus auctor nunc at ullamcorper. Praesent consectetur leo eget ex vehicula accumsan. Cras eget convallis mi. Etiam dignissim metus ac ipsum auctor aliquam et in nisl. Ut facilisis a neque fermentum consectetur. Duis dictum bibendum venenatis. Pellentesque tellus tortor, egestas quis placerat et, consequat volutpat dolor. Nullam et nisl lobortis, fermentum turpis auctor, sagittis velit. Praesent ut luctus nunc.
+                        </div>
+                    </div>
+                    <div class="tab-pane fade" id="Projects">
+                        <h4>The content for Projects tab</h4>
+                        <div>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean tristique placerat libero in semper. Aliquam erat volutpat. Curabitur finibus nisi nec tincidunt sollicitudin. Nam nulla lacus, venenatis at augue sit amet, placerat placerat risus. Vestibulum ullamcorper diam et pretium sagittis. Suspendisse ac gravida tellus. Phasellus nisi magna, consectetur sed eros et, scelerisque convallis metus. Quisque venenatis, lorem nec vulputate venenatis, arcu mi condimentum erat, pellentesque sodales orci erat nec urna. Integer commodo, metus id tempus mattis, leo nunc commodo nisi, eu auctor nibh eros et tellus. Etiam magna diam, aliquet eget elit at, efficitur facilisis enim. Nullam congue, ipsum id auctor mattis, metus dui accumsan dolor, vitae ullamcorper ante mi in orci. Sed fringilla pharetra turpis.
+
+                            Ut luctus diam sit amet pulvinar efficitur. Donec elementum suscipit rhoncus. Sed accumsan feugiat maximus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus convallis vitae arcu quis eleifend. Curabitur cursus auctor nunc at ullamcorper. Praesent consectetur leo eget ex vehicula accumsan. Cras eget convallis mi. Etiam dignissim metus ac ipsum auctor aliquam et in nisl. Ut facilisis a neque fermentum consectetur. Duis dictum bibendum venenatis. Pellentesque tellus tortor, egestas quis placerat et, consequat volutpat dolor. Nullam et nisl lobortis, fermentum turpis auctor, sagittis velit. Praesent ut luctus nunc.
+                        </div>
+                    </div>
+                    <div class="tab-pane fade" id="About">
+                        <h4>The content for About tab</h4>
+                        <div>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean tristique placerat libero in semper. Aliquam erat volutpat. Curabitur finibus nisi nec tincidunt sollicitudin. Nam nulla lacus, venenatis at augue sit amet, placerat placerat risus. Vestibulum ullamcorper diam et pretium sagittis. Suspendisse ac gravida tellus. Phasellus nisi magna, consectetur sed eros et, scelerisque convallis metus. Quisque venenatis, lorem nec vulputate venenatis, arcu mi condimentum erat, pellentesque sodales orci erat nec urna. Integer commodo, metus id tempus mattis, leo nunc commodo nisi, eu auctor nibh eros et tellus. Etiam magna diam, aliquet eget elit at, efficitur facilisis enim. Nullam congue, ipsum id auctor mattis, metus dui accumsan dolor, vitae ullamcorper ante mi in orci. Sed fringilla pharetra turpis.
+
+                            Ut luctus diam sit amet pulvinar efficitur. Donec elementum suscipit rhoncus. Sed accumsan feugiat maximus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus convallis vitae arcu quis eleifend. Curabitur cursus auctor nunc at ullamcorper. Praesent consectetur leo eget ex vehicula accumsan. Cras eget convallis mi. Etiam dignissim metus ac ipsum auctor aliquam et in nisl. Ut facilisis a neque fermentum consectetur. Duis dictum bibendum venenatis. Pellentesque tellus tortor, egestas quis placerat et, consequat volutpat dolor. Nullam et nisl lobortis, fermentum turpis auctor, sagittis velit. Praesent ut luctus nunc.
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+
+            <div class="col-md-6">
+                <h2>Scrollspy(Scrolling and Tabs)</h2>
+                <div style="position:relative;">
+                    <nav class="navbar navbar-inverse" role="navigation" id="navbar-spy">
+                            <ul class="nav navbar-nav">
+                                <li class="active"><a href="#scroll-first">First</a></li>
+                                <li><a href="#scroll-second">Second</a></li>
+                                <li><a href="#scroll-third">Third</a></li>
+                            </ul>
+                    </nav>
+                    <div data-target="#navbar-spy" data-spy="scroll" style="height:150px; overflow-y:scroll; position:relative;">
+                        <div id="scroll-first">
+                            <h3>Scroll First</h3>
+                            <div>
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean tristique placerat libero in semper. Aliquam erat volutpat. Curabitur finibus nisi nec tincidunt sollicitudin. Nam nulla lacus, venenatis at augue sit amet, placerat placerat risus. Vestibulum ullamcorper diam et pretium sagittis. Suspendisse ac gravida tellus. Phasellus nisi magna, consectetur sed eros et, scelerisque convallis metus. Quisque venenatis, lorem nec vulputate venenatis, arcu mi condimentum erat, pellentesque sodales orci erat nec urna. Integer commodo, metus id tempus mattis, leo nunc commodo nisi, eu auctor nibh eros et tellus. Etiam magna diam, aliquet eget elit at, efficitur facilisis enim. Nullam congue, ipsum id auctor mattis, metus dui accumsan dolor, vitae ullamcorper ante mi in orci. Sed fringilla pharetra turpis.
+
+                                Ut luctus diam sit amet pulvinar efficitur. Donec elementum suscipit rhoncus. Sed accumsan feugiat maximus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus convallis vitae arcu quis eleifend. Curabitur cursus auctor nunc at ullamcorper. Praesent consectetur leo eget ex vehicula accumsan. Cras eget convallis mi. Etiam dignissim metus ac ipsum auctor aliquam et in nisl. Ut facilisis a neque fermentum consectetur. Duis dictum bibendum venenatis. Pellentesque tellus tortor, egestas quis placerat et, consequat volutpat dolor. Nullam et nisl lobortis, fermentum turpis auctor, sagittis velit. Praesent ut luctus nunc.
+                            </div>
+                        </div>
+                        <div id="scroll-second">
+                            <h3>Scroll Second</h3>
+                            <div>
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean tristique placerat libero in semper. Aliquam erat volutpat. Curabitur finibus nisi nec tincidunt sollicitudin. Nam nulla lacus, venenatis at augue sit amet, placerat placerat risus. Vestibulum ullamcorper diam et pretium sagittis. Suspendisse ac gravida tellus. Phasellus nisi magna, consectetur sed eros et, scelerisque convallis metus. Quisque venenatis, lorem nec vulputate venenatis, arcu mi condimentum erat, pellentesque sodales orci erat nec urna. Integer commodo, metus id tempus mattis, leo nunc commodo nisi, eu auctor nibh eros et tellus. Etiam magna diam, aliquet eget elit at, efficitur facilisis enim. Nullam congue, ipsum id auctor mattis, metus dui accumsan dolor, vitae ullamcorper ante mi in orci. Sed fringilla pharetra turpis.
+
+                                Ut luctus diam sit amet pulvinar efficitur. Donec elementum suscipit rhoncus. Sed accumsan feugiat maximus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus convallis vitae arcu quis eleifend. Curabitur cursus auctor nunc at ullamcorper. Praesent consectetur leo eget ex vehicula accumsan. Cras eget convallis mi. Etiam dignissim metus ac ipsum auctor aliquam et in nisl. Ut facilisis a neque fermentum consectetur. Duis dictum bibendum venenatis. Pellentesque tellus tortor, egestas quis placerat et, consequat volutpat dolor. Nullam et nisl lobortis, fermentum turpis auctor, sagittis velit. Praesent ut luctus nunc.
+                            </div>
+                        </div>
+                        <div id="scroll-third">
+                            <h3>Scroll Third</h3>
+                            <div>
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean tristique placerat libero in semper. Aliquam erat volutpat. Curabitur finibus nisi nec tincidunt sollicitudin. Nam nulla lacus, venenatis at augue sit amet, placerat placerat risus. Vestibulum ullamcorper diam et pretium sagittis. Suspendisse ac gravida tellus. Phasellus nisi magna, consectetur sed eros et, scelerisque convallis metus. Quisque venenatis, lorem nec vulputate venenatis, arcu mi condimentum erat, pellentesque sodales orci erat nec urna. Integer commodo, metus id tempus mattis, leo nunc commodo nisi, eu auctor nibh eros et tellus. Etiam magna diam, aliquet eget elit at, efficitur facilisis enim. Nullam congue, ipsum id auctor mattis, metus dui accumsan dolor, vitae ullamcorper ante mi in orci. Sed fringilla pharetra turpis.
+
+                                Ut luctus diam sit amet pulvinar efficitur. Donec elementum suscipit rhoncus. Sed accumsan feugiat maximus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus convallis vitae arcu quis eleifend. Curabitur cursus auctor nunc at ullamcorper. Praesent consectetur leo eget ex vehicula accumsan. Cras eget convallis mi. Etiam dignissim metus ac ipsum auctor aliquam et in nisl. Ut facilisis a neque fermentum consectetur. Duis dictum bibendum venenatis. Pellentesque tellus tortor, egestas quis placerat et, consequat volutpat dolor. Nullam et nisl lobortis, fermentum turpis auctor, sagittis velit. Praesent ut luctus nunc.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="Scripts/jquery-2.1.4.min.js"></script>
+    <script src="Scripts/bootstrap.min.js"></script>
+</body>
+</html>

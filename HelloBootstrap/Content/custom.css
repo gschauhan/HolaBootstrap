@@ -1,0 +1,8 @@
+.carousel-inner {
+  padding-left: 15%;
+  padding-right: 15%;
+  margin-bottom:50px;
+}
+.carousel-indicators {
+  bottom:-50px;
+}
